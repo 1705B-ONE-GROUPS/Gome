@@ -4,11 +4,6 @@
     <div class="forgot_content">
       <el-tabs v-model="activeName" @tab-click="handleClick" :stretch="true">
         <el-tab-pane label="线上会员" name="first">
-          <el-steps :active="1" align-center>
-            <el-step title="步骤1">1111</el-step>
-            <el-step title="步骤2"></el-step>
-            <el-step title="步骤3"></el-step>
-          </el-steps>
         </el-tab-pane>
         <el-tab-pane label="门店会员" name="second">
           <el-form :label-position="labelPosition">

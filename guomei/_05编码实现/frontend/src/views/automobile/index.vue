@@ -6,7 +6,9 @@
  */
 <!--  -->
 <template>
+
   <div class="wrapper">
+    
     <Header></Header>
     <div class="gome-head">
       <div class="gome-logo">
