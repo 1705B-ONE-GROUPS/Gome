@@ -1,0 +1,77 @@
+.type_list{
+    width: 1200px;
+    height: 595px;
+    margin: 30px auto;
+    text-align: left;
+}
+.type_list_title{
+    width: 100%;
+    height: 35px;
+    font-size: 24px;
+    color: #8296a0;
+    border-bottom: 2px solid #8296a0;
+}
+.type_list_content{
+    width: 100%;
+    height: 560px;
+    display: flex;
+}
+.type_list_content .content_left{
+    width: 190px;
+    height: 100%;
+    position: relative;
+    background: #eef0f5;
+}
+.content_left .left_slide{
+    width: 80%;
+    height: 250px;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.content_left .left_slide li{
+    width: 100%;
+    height: 40px;
+    background: rgba(130,150,160,.35);
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+.content_left .left_slide li:hover{
+    background: #8296a0;
+    color: #fff;
+}
+.type_list_content .content_content{
+    width: 380px;
+    height: 100%;
+}
+.type_list_content img{
+    width: 100%;
+    height: 100%;
+}
+.type_list_content .content_right{
+    width: 630px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.type_list_content .content_right .right_item{
+    width: 210px;
+    height: 270px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.content_right .right_item img{
+    width: 100%;
+    height: 80%;
+}
+.content_right .right_item .item_info{
+    font-size: 12px;
+    color: #555555;
+}
+.content_right .right_item .item_price{
+    font-size: 18px;
+    color: #e3101e;
+}

@@ -1,0 +1,23 @@
+.youlike_item{
+    width: 230px;
+    height: 320px;
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: left;
+    background: #fff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.youlike_item img{
+    width: 100%;
+    height: 70%;
+}
+.youlike_item .goods_info{
+    margin-top: 15px;
+    font-size: 13px;
+    color: #555555;
+}
+.youlike_item .goods_price{
+    font-size: 16px;
+    color: #ee3b3b;
+}

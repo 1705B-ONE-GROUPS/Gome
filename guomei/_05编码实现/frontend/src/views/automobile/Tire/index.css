@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.gome-head{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+.gome-logo{
+    margin-top: 25px;
+}
+.logo-gif{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.search-box{
+    width: 500px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.head-search{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border: 2px solid #e20c20;
+    font-size: 14px;
+    line-height: 30px;
+}
+.search-type{
+    width: 10%;
+    color: #a5a5a5;
+    border-right: 2px solid #e20c20;
+}
+.head-search input{
+    width: 50%;
+    border: none;
+}
+.head-search .searchbtn{
+    width: 20%;
+    border: none;
+    color: #fff;
+    background: #dd00a7;
+}
+.head-search .searchall{
+    width: 21%;
+    border: none;
+    color: #fff;
+    background: #5a5a5a;
+}
+.search-prompt{
+    display: flex;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.search-prompt li{
+    margin-right: 10px;
+}
+.search-prompt :nth-child(1){
+    color: #f5004b;
+}
+.head-shopcar{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    font-size: 14px;
+    color: #5e5e5e;
+}
+.head-shopcar i{
+    font-size: 25px;
+    color: #5e5e5e;
+}
+.store_title{
+    width: 100%;
+    height: 30px;
+    background: #f3f3f3;
+}
+.title_main{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.title_main .title_two{
+    position: absolute;
+    right: 0;
+    line-height: 30px;
+    font-size: 12px;
+}
+.title_main .title_two span{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.title_main .title_two span i{
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: #e20c20;
+    font-weight: bold;
+}
+.title_main .title_two span a{
+    color: #404040;
+}
+.title_one{
+    position: absolute;
+    right: 170px;
+    line-height: 30px;
+    border-right: 1px solid #E6E6E6;
+    border-left: 1px solid #E6E6E6;
+    border-top: 2px solid #E6E6E6;
+    padding: 0 45px;
+    background: #f5f5f5;
+    font-size: 12px;
+}
+.one_show{
+    width: 200px;
+    height: 220px;
+    background: #fff;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    display: none;
+    z-index: 10;
+}
+.title_one:hover .one_show{
+    display: block;
+}
+.title_img{
+    width: 100%;
+    height: 120px;
+}
+.title_img img{
+    width: 100%;
+    height: 100%;
+}
+.tire_tab{
+    width: 100%;
+    height: 30px;
+    background: #be0e34;
+}
+.tire_tab ul{
+    width: 990px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+}
+.tire_tab ul li{
+    line-height: 30px;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 14px;
+}
+.tire_tab ul li:hover{
+    background: #950222;;
+}
+.big_img{
+    width: 100%;
+    height: 737px;
+}
+.big_img img{
+    width: 100%;
+    height: 100%;
+}
+.tire_content{
+    width: 100%;
+    background: #ff1500;
+}
+.content_goodsList{
+    width: 990px;
+    height: 1017px;
+    background: #fff;
+    margin: 0 auto;
+}
+.shows-hd-color {
+    color: #be0e34;
+}
+.shows-hd-color3_1 {
+    float: left;
+    padding: 5px 0;
+    font: italic 500 30px/35px "Mirosoft YaHei";
+    text-align: center;
+    width: 990px;
+}
+.shows-hd-border-3 {
+    display: block;
+    width: 990px;
+    height: 10px;
+    background: url(//img5.gomein.net.cn/pop/images/shows_hd3_bg.png) no-repeat;
+    float: left;
+}
+.shows-hd-text3 {
+    display: block;
+    width: 560px;
+    padding: 0 215px;
+    font: italic 400 16px/25px "Mirosoft YaHei";
+    color: #787876;
+    float: left;
+    text-align: center;
+}
+.goodsList_box{
+    width: 100%;
+    height: 912px;
+    background: #ccc;
+    display: inline-block;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.goodsList_box .goods_item{
+    width: 320px;
+    height: 445px;
+    border: 1px solid #e5e5e5;
+}
